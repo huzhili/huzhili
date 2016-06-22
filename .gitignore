@@ -1,0 +1,10 @@
+*.dll
+Huzl/SplashScreen/bin/Debug/SplashScreen.pdb
+*.cache
+Huzl/SplashScreen/obj/Debug/Huzl.SplashScreen.SplashWindow.resources
+*.txt
+Huzl/SplashScreen/obj/Debug/SplashScreen.pdb
+*.pdb
+*.exe
+Huzl/SplashScreenDemo/bin/Debug/SplashScreenDemo.vshost.exe.manifest
+*.resources
