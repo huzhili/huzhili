@@ -8,3 +8,4 @@ Huzl/SplashScreen/obj/Debug/SplashScreen.pdb
 *.exe
 Huzl/SplashScreenDemo/bin/Debug/SplashScreenDemo.vshost.exe.manifest
 *.resources
+/cross-platform-app

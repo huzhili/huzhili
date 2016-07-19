@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreen", "SplashScreen\SplashScreen.csproj", "{83E55BEF-0544-421E-98A7-CAC564694960}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SplashScreenDemo", "SplashScreenDemo\SplashScreenDemo.csproj", "{AFA0D958-A564-462C-B2C0-4B93BFBA40FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginContracts", "PluginContracts\PluginContracts.csproj", "{A0BFA3FD-31B3-4B0A-A12C-56E57E19DCB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginDemo", "PluginDemo\PluginDemo.csproj", "{8DA30B14-3D76-4B1A-8E2C-F42681397165}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColorPicker", "ColorPicker\ColorPicker.csproj", "{31B09EB5-42AA-4218-9471-0438214300B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{AFA0D958-A564-462C-B2C0-4B93BFBA40FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFA0D958-A564-462C-B2C0-4B93BFBA40FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFA0D958-A564-462C-B2C0-4B93BFBA40FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0BFA3FD-31B3-4B0A-A12C-56E57E19DCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0BFA3FD-31B3-4B0A-A12C-56E57E19DCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0BFA3FD-31B3-4B0A-A12C-56E57E19DCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0BFA3FD-31B3-4B0A-A12C-56E57E19DCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA30B14-3D76-4B1A-8E2C-F42681397165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA30B14-3D76-4B1A-8E2C-F42681397165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA30B14-3D76-4B1A-8E2C-F42681397165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA30B14-3D76-4B1A-8E2C-F42681397165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31B09EB5-42AA-4218-9471-0438214300B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31B09EB5-42AA-4218-9471-0438214300B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31B09EB5-42AA-4218-9471-0438214300B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31B09EB5-42AA-4218-9471-0438214300B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

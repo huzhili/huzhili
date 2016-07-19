@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace Huzl.SplashScreen
 {
-    public partial class SplashWindow : Form
+    public partial class SplashWindow : BaseForm
     {
         public SplashWindow()
         {
@@ -17,19 +17,7 @@ namespace Huzl.SplashScreen
             ucLoading1.Active = true;
         }
 
-        public void KillMe(object o, EventArgs e)
-        {
-            this.Close();
-            this.Cursor = Cursors.Default; ;
-        }
-
-        public void BringTop(object sender, EventArgs e)
-        {
-            this.Cursor = Cursors.WaitCursor;
-            this.TopMost = true;
-        }
-
-        public void ChangeText(object sender, EventArgs e)
+        public override void ChangeText(object sender, EventArgs e)
         {
             lblText.Text = sender as string;
         }

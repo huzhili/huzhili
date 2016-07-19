@@ -45,7 +45,7 @@
             // 
             // ucLoading1
             // 
-            this.ucLoading1.Active = false;
+            this.ucLoading1.Active = true;
             this.ucLoading1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -68,9 +68,7 @@
             this.ClientSize = new System.Drawing.Size(200, 80);
             this.Controls.Add(this.lblText);
             this.Controls.Add(this.ucLoading1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SplashWindow";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashWindow";
             this.TopMost = true;
             this.ResumeLayout(false);

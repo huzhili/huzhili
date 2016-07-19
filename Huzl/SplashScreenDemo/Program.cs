@@ -18,10 +18,7 @@ namespace Huzl.SplashScreenDemo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            SplashHandler.Start();
-            Thread.Sleep(300);
-            SplashHandler.BringTop();
-            SplashHandler.ChangeText("Carregando...");
+            Splash.Start("Carregando...");
 
             Application.Run(new Form1());
         }

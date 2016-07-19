@@ -23,7 +23,7 @@ namespace Huzl.SplashScreenDemo
         protected override void OnLoad(EventArgs e)
         {
             base.OnLoad(e);
-            SplashHandler.Close();
+            Splash.Close();
             
             this.Focus();
             this.BringToFront();
@@ -31,9 +31,9 @@ namespace Huzl.SplashScreenDemo
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SplashHandler.ChangeText("Loading...");
+            Splash.ChangeText("Loading...");
             Thread.Sleep(3000); // Simulates delay
-            SplashHandler.ChangeText("Loaded");
+            Splash.ChangeText("Loaded");
             Thread.Sleep(1000); // Simulates delay
         }
     }
